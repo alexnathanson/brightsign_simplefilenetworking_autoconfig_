@@ -1,7 +1,18 @@
 # brightsign_simplefilenetworking_autoconfig_
-Autoconfiguration files for Brightsign Simple File Networking based on unique device ID
+Autoconfiguration files for Brightsign LS423 Simple File Networking based on unique device ID
 
-
+<p>
+  The purpose of this is to be able to have 1 master config directory per Brightsign model that can be placed on the device and it will automatically connect to the LAN media server. 
+</p>
+<p>
+  The folder on the server needs to be correlated to the device ID (the same as the serial #)<br>
+  When the presentation is created in Bright Author Connected, it needs to use the same directory name and structure. I.e. everything should be placed in a folder called Presentation.
+</p>
+### Server Directory Structure
+SERVER ROOT<br>
+* [Unique Device ID]<br>
+** Presentation
+  
 ## UPDATED FILES:
 * setupNetworkDiagnostics.brs
 * autorun.brs
