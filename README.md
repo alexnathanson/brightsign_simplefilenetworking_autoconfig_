@@ -1,4 +1,4 @@
-# brightsign_simplefilenetworking_autoconfig_
+# brightsign_simplefilenetworking_autoconfig
 Autoconfiguration files for Brightsign LS423 Simple File Networking based on unique device ID
 
 <p>
@@ -10,8 +10,8 @@ Autoconfiguration files for Brightsign LS423 Simple File Networking based on uni
 </p>
 ### Server Directory Structure
 SERVER ROOT<br>
-* [Unique Device ID]<br>
-** Presentation
+- [Unique Device ID]<br>
+-- Presentation
   
 ## UPDATED FILES:
 * setupNetworkDiagnostics.brs
