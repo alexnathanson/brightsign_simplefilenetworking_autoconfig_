@@ -8,7 +8,7 @@ Autoconfiguration files for Brightsign LS423 Simple File Networking based on uni
   The folder on the server needs to be correlated to the device ID (the same as the serial #)<br>
   When the presentation is created in Bright Author Connected, it needs to use the same directory name and structure. I.e. everything should be placed in a folder called Presentation.
 </p>
-### Server Directory Structure
+<strong> Server Directory Structure</strong><br>
 SERVER ROOT<br>
 - [Unique Device ID]<br>
 -- Presentation
