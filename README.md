@@ -49,3 +49,14 @@ baseURL$ = setupSync.LookupMetadata("client", "base") + runIdObject.GetDeviceUni
  idObject = CreateObject("roDeviceInfo")<br>
  setupParams.base = setup_sync.LookupMetadata("client", "base") + idObject.GetDeviceUniqueId() + "/Presentation"
 </p>
+
+## finding Brightsigns on the LAN
+
+<p>
+All brightsign devices should have MAC addresses with in the range of<br>
+90:AC:3F:00:00:00 ====> 90:AC:3F:FF:FF:FF
+</p>
+
+<p>
+	arp -a | findstr 90-ac-3f
+</p>
