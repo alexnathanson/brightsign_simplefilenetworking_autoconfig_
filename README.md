@@ -1,5 +1,5 @@
-# brightsign_simplefilenetworking_autoconfig
-Autoconfiguration files for Brightsign LS423 Simple File Networking based on unique device ID
+# brightsign_simplefilenetworking_autosync
+Automatically syncs Brightsign LS423 players to a server directory (based on unique device ID) for Simple File Networking.
 
 <p>
   The purpose of this is to be able to have 1 master config directory per Brightsign model that can be placed on the device and it will automatically connect to the LAN media server. 
