@@ -63,14 +63,14 @@ All brightsign devices should have MAC addresses within the range of<br>
 
 # Manually Syncing Devices
 Devices can be manually synced by using the 'SD CARD - Backup' directory
-* manually edit the current-sync.json file with the full server directory path and draf that to the SD card or use configSDcard.py to programmatically copy all the files to an SD card and update the base
+* manually edit the current-sync.json file with the full server directory path and drag that to the SD card or use configSDcard.py to programmatically copy all the files to an SD card and update the base
 
 # Preparing Presentations
 
 * Make sure the presentation is set to Simple File Networking
 * Make sure the presentation and schedule is saved with the same directory structure as the server i.e. everything should be in a folder called Presentation
-* If you're making a new presentation, the easiest thing to do is set the URL for web folder on the Schedule page under unit configuration.
+* If you're making a new presentation, the easiest thing to do is set the URL for web folder on the Schedule page under unit configuration.<br>
 ** It should be structured like http://[SERVER_IP]/[DEVICE_ID]/Presentation
-* Presentations can be prepared without necessarily knowing the final Brightsign ID or the server destination.
+* Presentations can be prepared without necessarily knowing the final Brightsign ID or the server destination.<br>
 ** In this case the server directory listed in presentation files will need to be updated to coorespond with the device ID
 ** you can use configServerPresentation.py to automate this update

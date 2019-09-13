@@ -1,5 +1,6 @@
 # configure brightsign LS423 for simple networking
 
+# USE FORWARD SLASHES...
 # to run -> python configServerPresentation.py [srcDirectory] [dstDirectory] [deviceID] [server ip]
 
 import sys
@@ -22,7 +23,7 @@ presentationFolder = '/Presentation'
 srcDir = 'SD CARD - Backup'
 srcDirs = srcDir + '\\'
 
-dstPresentation = sys.argv[2] + deviceID
+dstPresentation = sys.argv[2] + deviceID + presentationFolder
 
 #copy directory
 shutil.copytree(srcPresentation, dstPresentation)
@@ -30,7 +31,7 @@ shutil.copytree(srcPresentation, dstPresentation)
 print(srcPresentation + " has been copied to " + dstPresentation)
 
 #update directory on current-sync.json
-with open(dstPresentation+'\\'+'Presentation\\current-sync.json', 'r+') as f:
+with open(dstPresentation+'\\current-sync.json', 'r+') as f:
     data = json.load(f)
 
     #print('Old server destination: ' + data['meta']['client']['base'])
