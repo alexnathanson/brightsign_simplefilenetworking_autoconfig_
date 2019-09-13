@@ -22,8 +22,7 @@ presentationFolder = '/Presentation'
 srcDir = 'SD CARD - Backup'
 srcDirs = srcDir + '\\'
 
-#dstPresentation = 'C:\\Users\\jchas\\Documents\\Simple File Networking\\SERVER\\updatedIP\\'+deviceID
-dstPresentation = sys.argv[2]
+dstPresentation = sys.argv[2] + deviceID
 
 #copy directory
 shutil.copytree(srcPresentation, dstPresentation)
