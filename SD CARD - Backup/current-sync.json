@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"client": {
-			"base": "http://10.71.40.234/BS1/Presentation/",
+			"base": "http://[YOUR_SERVER_IP]/[YOUR_DEVICE_ID]/Presentation",
 			"sfnUserName": "",
 			"sfnPassword": "",
 			"next": "/current-sync.json",
