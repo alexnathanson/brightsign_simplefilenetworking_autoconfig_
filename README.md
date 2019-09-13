@@ -12,7 +12,10 @@ Automatically syncs Brightsign LS423 players to a server directory that matches 
 SERVER ROOT<br>
 - [Unique Device ID]<br>
 -- Presentation
-  
+
+## Note:
+The initial config directory for Brightsign includes a number of empty directories. In order for them to be tracked by Git and included here, I haved added empty .gitignore files to all 4 (brightsign-dumps, feed_cache, feedPool, and pool). You will probably need delete these prior to putting them on a device.
+
 ## UPDATED FILES:
 * setupNetworkDiagnostics.brs
 * autorun.brs
