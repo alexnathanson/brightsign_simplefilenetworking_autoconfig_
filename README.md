@@ -7,16 +7,15 @@ Autoconfiguration files for Brightsign Simple File Networking based on unique de
 * autorun.brs
 * setupCommon.brs
 
-Also, base should just be the server root folder:
-
-"base": "http://10.71.40.234/",
+Also, base should just be the server root folder.
+"base": "http://[SERVER IP ADDRESS]/",
 
 ## setupNetworkDiagnostics.brs
 * line 21 - On the network diagnostics screen background of text should be green
 * line 100 - and the title should read  "Network Diagnostics?!?!?!?!"
 
 ## autorun.brs
-* lines 1657 -1673
+* added lines 1659 - 1674
 
 ## setupCommon.brs
-* lines 6 - 21
+* added lines 6 - 21
