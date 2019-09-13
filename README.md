@@ -50,10 +50,10 @@ baseURL$ = setupSync.LookupMetadata("client", "base") + runIdObject.GetDeviceUni
  setupParams.base = setup_sync.LookupMetadata("client", "base") + idObject.GetDeviceUniqueId() + "/Presentation"
 </p>
 
-## finding Brightsigns on the LAN
+# finding Brightsigns on the LAN
 
 <p>
-All brightsign devices should have MAC addresses with in the range of<br>
+All brightsign devices should have MAC addresses within the range of<br>
 90:AC:3F:00:00:00 ====> 90:AC:3F:FF:FF:FF
 </p>
 
