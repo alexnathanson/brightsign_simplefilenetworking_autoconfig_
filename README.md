@@ -74,3 +74,6 @@ Devices can be manually synced by using the 'SD CARD - Backup' directory
 * Presentations can be prepared without necessarily knowing the final Brightsign ID or the server destination.<br>
 ** In this case the server directory listed in presentation files will need to be updated to coorespond with the device ID
 ** you can use configServerPresentation.py to automate this update
+
+# Setting up the server
+* Must add MIME types (https://brightsign.zendesk.com/hc/en-us/articles/218067517-Simple-File-Network-troubleshooting)
