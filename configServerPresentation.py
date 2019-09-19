@@ -25,6 +25,12 @@ srcDirs = srcDir + '\\'
 
 dstPresentation = sys.argv[2] + deviceID + presentationFolder
 
+archiveDirectory = "presentationArchive/"
+'''
+#archive old directory
+try:
+    shutil.copytree(dstPresentation, archiveDirectory + deviceID)
+'''
 #copy directory
 shutil.copytree(srcPresentation, dstPresentation)
 
